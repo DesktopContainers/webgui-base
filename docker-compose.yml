@@ -1,0 +1,14 @@
+version: '3'
+ 
+services:
+  webgui-base:
+    build: .
+    image: desktopcontainers/webgui-base
+    restart: unless-stopped
+    shm_size: "2g"
+    environment:
+      VNC_SCREEN_DEPTH: 24
+    ports:
+      - "8080:8080"
+
+

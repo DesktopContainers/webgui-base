@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /bin/su -l -s /bin/sh -c "websockify 8080 --web /usr/share/novnc/ localhost:4900" app
