@@ -1,4 +1,4 @@
-# Base Image for Desktop Applications on lightweight IceWM Window Manager - (desktopcontainers/webgui-base) [x86 + arm]
+# Base Image for Desktop Applications on lightweight IceWM Window Manager (x86 + arm)
 
 This container is an alterantive to the desktopcontainers `debian-base` and `alpine-base` containers.
 
